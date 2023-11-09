@@ -9,11 +9,13 @@
   - Composition API 기반 : npm init vite@latest
 */
 import Component1 from "./components/Component1.vue";
+import Component2 from "./components/Component2.vue";
 
 export default {
   name: "App",
   components: {
     Component1,
+    Component2,
   },
 };
 </script>
@@ -21,10 +23,11 @@ export default {
 <template>
   <h1>ch04. Composition API</h1>
 
-  <h3>1) setup()</h3>
+  <h3>1) setup(), Reactivity</h3>
   <Component1 />
 
-  <h3>2) Reactivity</h3>
-  <h3>3) LifeCycle Hooks</h3>
-  <h3>4) Dependency Injection</h3>
+  <h3>2) LifeCycle Hooks</h3>
+  <Component2 />
+
+  <h3>3) Dependency Injection</h3>
 </template>
