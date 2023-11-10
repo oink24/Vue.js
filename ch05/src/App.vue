@@ -31,6 +31,8 @@
   <router-link to="/main3">Main3</router-link>
 
   <h4>Router 데이터 전달</h4>
+  <router-link to="/form1">Form1</router-link>
+  <router-link to="/form2">Form2</router-link>
 
   <hr />
   <router-view name="header"></router-view>
