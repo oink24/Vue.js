@@ -23,6 +23,8 @@
   <router-link to="/greeting">Greeting</router-link>
 
   <h4>Router 중첩</h4>
+  <router-link to="/parent">Parent</router-link>
+
   <h4>Router 데이터 전달</h4>
   <h4>Router Named View</h4>
 
