@@ -25,9 +25,15 @@
   <h4>Router 중첩</h4>
   <router-link to="/parent">Parent</router-link>
 
-  <h4>Router 데이터 전달</h4>
   <h4>Router Named View</h4>
+  <router-link to="/main1">Main1</router-link>　
+  <router-link to="/main2">Main2</router-link>　
+  <router-link to="/main3">Main3</router-link>
+
+  <h4>Router 데이터 전달</h4>
 
   <hr />
+  <router-view name="header"></router-view>
   <router-view></router-view>
+  <router-view name="footer"></router-view>
 </template>

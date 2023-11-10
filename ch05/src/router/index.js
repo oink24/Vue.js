@@ -5,6 +5,11 @@ import Greeting from "../components/sub1/Greeting.vue";
 import Parent from "../components/sub2/Parent.vue";
 import Child1 from "../components/sub2/Child1.vue";
 import Child2 from "../components/sub2/Child2.vue";
+import Header from "../components/sub3/Header.vue";
+import Footer from "../components/sub3/Footer.vue";
+import Main1 from "../components/sub3/Main1.vue";
+import Main2 from "../components/sub3/Main2.vue";
+import Main3 from "../components/sub3/Main3.vue";
 
 // router 인스턴스 생성
 const router = createRouter({
@@ -21,6 +26,18 @@ const router = createRouter({
         { path: "child1", component: Child1 },
         { path: "child2", component: Child2 },
       ],
+    },
+    {
+      path: "/main1",
+      components: { default: Main1, header: Header, footer: Footer },
+    },
+    {
+      path: "/main2",
+      components: { default: Main2, header: Header, footer: Footer },
+    },
+    {
+      path: "/main3",
+      components: { default: Main3, header: Header, footer: Footer },
     },
   ],
 });
