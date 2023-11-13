@@ -21,11 +21,15 @@
 
   <hr />
   <MyComponent1 />
+
+  <hr />
+  <MyComponent2 />
 </template>
 
 <script setup>
 import { useMainStore } from "./store/mainStore";
 import MyComponent1 from "./components/MyComponent1.vue";
+import MyComponent2 from "./components/MyComponent2.vue";
 
 const mainStore = useMainStore();
 </script>
